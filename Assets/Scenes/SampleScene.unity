@@ -24,9 +24,9 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_AmbientMode: 1
+  m_SubtractiveShadowColor: {r: 0.22561412, g: 0.24186073, b: 0.2830189, a: 1}
+  m_SkyboxMaterial: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -96,8 +96,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 35f33b297d59dc841b0cee58f26cf7cd, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: fc6996b2009e3b147934721787ab081d, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -174,6 +174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Table (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 444dc5ee8a04dc941b5f5e83bfaed0df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -230,6 +234,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -288,6 +296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -344,6 +356,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -402,6 +418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Crate
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -459,6 +479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -515,6 +539,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -575,9 +603,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 124379240}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &57967704 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 57967703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &59721694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -629,6 +665,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Column (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -687,6 +727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Crucible (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f69a1439ccff5d5408e832f87b0c65e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -744,6 +788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -755,11 +803,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 154128612}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0575597
+      value: -0.0040001874
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalPosition.y
@@ -767,23 +815,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.9959998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -800,6 +848,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_Name
       value: AlchemyLabDoor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -858,6 +910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -915,11 +971,109 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+--- !u!1 &124379239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124379240}
+  - component: {fileID: 124379241}
+  m_Layer: 0
+  m_Name: Point Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124379240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124379239}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9616696, z: -0, w: 0.27421096}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57967704}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &124379241
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124379239}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &153408451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -972,11 +1126,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_AlembicRetort
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c33c5ace151e5047b33d229acee9b17, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c33c5ace151e5047b33d229acee9b17, type: 3}
+--- !u!4 &154128612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+  m_PrefabInstance: {fileID: 495604510}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &156548857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1028,6 +1191,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1143,11 +1310,109 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+--- !u!1 &183017257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 183017258}
+  - component: {fileID: 183017259}
+  m_Layer: 0
+  m_Name: Point Light (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &183017258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183017257}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9616696, z: -0, w: 0.27421087}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 457808736}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &183017259
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183017257}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &184929257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1199,6 +1464,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ce22dbf90208a56409efc4690f019511, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FlaskSquare (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ce22dbf90208a56409efc4690f019511, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1257,6 +1526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Table (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 444dc5ee8a04dc941b5f5e83bfaed0df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1313,6 +1586,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0be71411042e5d4ca873ef6c0414ee6, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FlaskPyramid (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0be71411042e5d4ca873ef6c0414ee6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1371,6 +1648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1427,6 +1708,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1485,6 +1770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1541,6 +1830,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1599,6 +1892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Shelf (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c2e6c1e903ccbf247844b00436e8a672, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1618,7 +1915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.747
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1655,6 +1952,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FlaskRound (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 747217712377dcf4dbdee62b04608694, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1715,9 +2016,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 437319538}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &262885545 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 262885544}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &266954259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1769,6 +2078,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1884,6 +2197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1941,6 +2258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1997,6 +2318,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2057,9 +2382,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 711027129}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &320449247 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 320449246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &335933810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2111,6 +2444,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2168,6 +2505,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2231,6 +2572,100 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0694e18daa2229b44998456af0994fdd, type: 3}
+--- !u!1 &350919264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 350919265}
+  - component: {fileID: 350919266}
+  m_Layer: 0
+  m_Name: Point Light (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &350919265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350919264}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.48610672, z: -0, w: 0.87389946}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 370347512}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &350919266
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350919264}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &359228074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2282,6 +2717,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2342,9 +2781,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 350919265}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &370347512 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 370347511}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &371005812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2462,6 +2909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2518,6 +2969,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c2e6c1e903ccbf247844b00436e8a672, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Shelf (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c2e6c1e903ccbf247844b00436e8a672, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2576,6 +3031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2632,6 +3091,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2690,11 +3153,203 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+--- !u!1 &437319537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 437319538}
+  - component: {fileID: 437319539}
+  m_Layer: 0
+  m_Name: Point Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &437319538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437319537}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.27421096, z: -0, w: 0.9616696}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 262885545}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &437319539
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437319537}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &445455723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 445455724}
+  - component: {fileID: 445455725}
+  m_Layer: 0
+  m_Name: Point Light (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &445455724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445455723}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.8738995, z: -0, w: 0.4861067}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 591243823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &445455725
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445455723}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &457808735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2749,9 +3404,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 183017258}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &457808736 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 457808735}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &468863326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2803,6 +3466,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Crate (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2861,6 +3528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2917,6 +3588,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3032,6 +3707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Column (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3089,9 +3768,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1489447898}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
 --- !u!1001 &498325645
@@ -3100,11 +3790,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 680892545}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3112,7 +3802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.006
+      value: 0.004000187
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3120,7 +3810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_LocalRotation.y
@@ -3145,6 +3835,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_Name
       value: AlchemyLabDoor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3205,9 +3899,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1780008706}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &501968930 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 501968929}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &538628357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3259,6 +3961,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3317,6 +4023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3374,6 +4084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Chair (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a16054d4ba63a7b449529ddc8a952a7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3430,6 +4144,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3490,9 +4208,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 445455724}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &591243823 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 591243822}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &594324224
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3547,9 +4273,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 902623341}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &594324225 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 594324224}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &601965306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3601,6 +4335,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Crate (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3659,6 +4397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3715,6 +4457,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3773,11 +4519,109 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+--- !u!1 &644112826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 644112827}
+  - component: {fileID: 644112828}
+  m_Layer: 0
+  m_Name: Point Light (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &644112827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644112826}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9616696, z: -0, w: 0.27421096}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1575324272}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &644112828
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644112826}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &659038711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3829,6 +4673,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3887,9 +4735,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 927455927}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
 --- !u!1001 &665199101
@@ -3943,6 +4802,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4001,6 +4864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4058,11 +4925,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+--- !u!4 &680892545 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+  m_PrefabInstance: {fileID: 664295960}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &683920399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4115,6 +4991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4134,7 +5014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.747
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4171,6 +5051,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FlaskRound (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 747217712377dcf4dbdee62b04608694, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4231,9 +5115,111 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3222ac7ddfe240d4fbf4d9f66ef60665, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 822336956}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3222ac7ddfe240d4fbf4d9f66ef60665, type: 3}
+--- !u!4 &692678146 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3222ac7ddfe240d4fbf4d9f66ef60665, type: 3}
+  m_PrefabInstance: {fileID: 692678145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &711027128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 711027129}
+  - component: {fileID: 711027130}
+  m_Layer: 0
+  m_Name: Point Light (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &711027129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711027128}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9616696, z: -0, w: 0.27421087}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 320449247}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &711027130
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711027128}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &727738520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4285,6 +5271,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4343,6 +5333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4399,6 +5393,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4457,6 +5455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4513,6 +5515,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4571,11 +5577,109 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Column
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
+--- !u!1 &822336955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 822336956}
+  - component: {fileID: 822336957}
+  m_Layer: 0
+  m_Name: Point Light (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &822336956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822336955}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.035771694, z: -0, w: 0.99935997}
+  m_LocalPosition: {x: 0, y: 0.327, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 692678146}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &822336957
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822336955}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 1.89
+  m_Range: 1.62
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &838291703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4627,6 +5731,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4742,6 +5850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Barrel (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 794de55dd6ce79744a297a54c0ff0d8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4761,7 +5873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49b8e5720c8886945b65e2124a887160, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.737
+      value: 0.7341
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49b8e5720c8886945b65e2124a887160, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4798,6 +5910,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 49b8e5720c8886945b65e2124a887160, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_VialLarge
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49b8e5720c8886945b65e2124a887160, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4913,11 +6029,109 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+--- !u!1 &902623340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902623341}
+  - component: {fileID: 902623342}
+  m_Layer: 0
+  m_Name: Point Light (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &902623341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902623340}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.4861067, z: -0, w: 0.87389946}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 594324225}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &902623342
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902623340}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &915299688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4969,6 +6183,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5027,11 +6245,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FlaskRound
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 747217712377dcf4dbdee62b04608694, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 747217712377dcf4dbdee62b04608694, type: 3}
+--- !u!4 &927455927 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
+  m_PrefabInstance: {fileID: 498325645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &949292571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5083,6 +6310,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5233,6 +6464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Barrel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 794de55dd6ce79744a297a54c0ff0d8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5289,6 +6524,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f69a1439ccff5d5408e832f87b0c65e4, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Crucible (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f69a1439ccff5d5408e832f87b0c65e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5347,6 +6586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5404,6 +6647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5460,6 +6707,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5632,6 +6883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5690,7 +6945,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.66
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -5720,7 +6975,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5783,6 +7038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5839,6 +7098,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f69a1439ccff5d5408e832f87b0c65e4, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Crucible
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f69a1439ccff5d5408e832f87b0c65e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5897,6 +7160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5953,6 +7220,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6011,6 +7282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6030,7 +7305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.737
+      value: 0.7331
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6067,6 +7342,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FlaskRound (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 747217712377dcf4dbdee62b04608694, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6182,6 +7461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Crate (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6238,6 +7521,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 444dc5ee8a04dc941b5f5e83bfaed0df, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Table (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 444dc5ee8a04dc941b5f5e83bfaed0df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6315,7 +7602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.747
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6352,6 +7639,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 747217712377dcf4dbdee62b04608694, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FlaskRound (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 747217712377dcf4dbdee62b04608694, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6409,6 +7700,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6469,9 +7764,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2025919640}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &1281246943 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 1281246942}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1289893630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6580,6 +7883,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6695,6 +8002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6751,6 +8062,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6809,6 +8124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6865,6 +8184,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6980,6 +8303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7036,6 +8363,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7094,6 +8425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7150,6 +8485,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Crate (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7265,6 +8604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7321,6 +8664,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
       propertyPath: m_Name
       value: AlchemyLabDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7379,6 +8726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Crucible (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f69a1439ccff5d5408e832f87b0c65e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7435,6 +8786,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7493,6 +8848,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7550,6 +8909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7606,6 +8969,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Column (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7666,9 +9033,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2021438217}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &1441478423 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 1441478422}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1469434767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7720,6 +9095,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7778,6 +9157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Crate (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7835,11 +9218,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Chair
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a16054d4ba63a7b449529ddc8a952a7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a16054d4ba63a7b449529ddc8a952a7d, type: 3}
+--- !u!4 &1489447898 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0c1e4bf7419db334b8e910143d9d2215, type: 3}
+  m_PrefabInstance: {fileID: 73329303}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1490646702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7891,6 +9283,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f69a1439ccff5d5408e832f87b0c65e4, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Crucible (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f69a1439ccff5d5408e832f87b0c65e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7949,6 +9345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7968,7 +9368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49b8e5720c8886945b65e2124a887160, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.737
+      value: 0.7339
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 49b8e5720c8886945b65e2124a887160, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8005,6 +9405,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 49b8e5720c8886945b65e2124a887160, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_VialLarge (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49b8e5720c8886945b65e2124a887160, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8062,6 +9466,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8122,9 +9530,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 644112827}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+--- !u!4 &1575324272 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4dd59f201ea1dd441aec2b7194d13963, type: 3}
+  m_PrefabInstance: {fileID: 1575324271}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1619224064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8348,6 +9764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8404,6 +9824,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Column (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8576,6 +10000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8633,6 +10061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 794de55dd6ce79744a297a54c0ff0d8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8689,6 +10121,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8804,6 +10240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8860,6 +10300,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Column (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8918,11 +10362,109 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Crate (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
+--- !u!1 &1780008705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1780008706}
+  - component: {fileID: 1780008707}
+  m_Layer: 0
+  m_Name: Point Light (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1780008706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780008705}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.87389946, z: -0, w: 0.48610666}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 501968930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1780008707
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780008705}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &1789912695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8974,6 +10516,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9032,6 +10578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Barrel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 794de55dd6ce79744a297a54c0ff0d8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9088,6 +10638,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9146,6 +10700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Column (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9203,6 +10761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_MortarPestle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3ff1227687492e8489e90428eb9007bc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9259,6 +10821,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9374,6 +10940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Column (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b5eff266bac05f4bae6a52b94ab572b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9430,6 +11000,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9488,6 +11062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9544,6 +11122,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9602,6 +11184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9659,11 +11245,109 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Crate (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2518108bf7df0804ab561d549765a1d2, type: 3}
+--- !u!1 &2021438216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2021438217}
+  - component: {fileID: 2021438218}
+  m_Layer: 0
+  m_Name: Point Light (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2021438217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021438216}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.27421087, z: -0, w: 0.9616696}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1441478423}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &2021438218
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021438216}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &2024589364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9716,11 +11400,109 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+--- !u!1 &2025919639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2025919640}
+  - component: {fileID: 2025919641}
+  m_Layer: 0
+  m_Name: Point Light (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2025919640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025919639}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.48610672, z: -0, w: 0.87389946}
+  m_LocalPosition: {x: 0, y: 0.579, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1281246943}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &2025919641
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025919639}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5639593, b: 0, a: 1}
+  m_Intensity: 2.55
+  m_Range: 3.11
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.66
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &2027253192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9772,6 +11554,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0be71411042e5d4ca873ef6c0414ee6, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FlaskPyramid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0be71411042e5d4ca873ef6c0414ee6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9887,6 +11673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10001,6 +11791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10058,6 +11852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_Table
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 444dc5ee8a04dc941b5f5e83bfaed0df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10114,6 +11912,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a16054d4ba63a7b449529ddc8a952a7d, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_Chair (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a16054d4ba63a7b449529ddc8a952a7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10229,6 +12031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10285,6 +12091,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10343,6 +12153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_FlaskSquare (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ce22dbf90208a56409efc4690f019511, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10400,6 +12214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assets.fbx_BrickWall (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18f23586447cf6f469f5da8c416a668a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10456,6 +12274,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
       propertyPath: m_Name
       value: Assets.fbx_FloorTile (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5403afc9a8a9c6d42afee1f7644dbb9f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10642,6 +12464,4 @@ SceneRoots:
   - {fileID: 1424033326}
   - {fileID: 664295960}
   - {fileID: 495604510}
-  - {fileID: 498325645}
-  - {fileID: 73329303}
   - {fileID: 1194099784}
